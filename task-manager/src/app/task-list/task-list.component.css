@@ -1,0 +1,30 @@
+/* Styling for the Task List */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  li.active {
+    background-color: #d0d0d0;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
